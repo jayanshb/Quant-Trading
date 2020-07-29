@@ -11,6 +11,14 @@ The MACD Indicator is a popular indicator in the field of technical trading. Buy
 • Sell at an anticipation of a bearish momentum: When MACD Line in the higher time frame crosses the signal line from above at an intersection > $0. </br>
 • Buy at an anticipation of a bullish momentum: When MACD Line in the higher time frame crosses the signal line from below at an intersection < $0. </br>
 
+#### Getting started -
+Download the dependenies required to run the jupyter notebook using 
+```
+pip install -r requirements.txt
+```
+
+Then run the jupyter notebook MACD.ipynb
+
 #### Results - 
 • <i>Initial investment</i> - $18.86 AAPL Stock </br>
 • <i>Trading Time</i> - June 03, 2009 - June 03, 2019 </br>
