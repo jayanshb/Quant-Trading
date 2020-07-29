@@ -14,7 +14,7 @@ The MACD Indicator is a popular indicator in the field of technical trading. Buy
 #### Getting started -
 Download the dependenies required to run the jupyter notebook using 
 ```
-pip install -r requirements.txt
+pip install -r macd_requirements.txt
 ```
 
 Then run the jupyter notebook MACD.ipynb
