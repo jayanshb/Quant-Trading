@@ -20,5 +20,5 @@ The MACD Indicator is a popular indicator in the field of technical trading. Buy
 • <i>Number of non-profitable trades</i> - 7 (28%) </br>
 • <i>Number of profitable trades</i> - 18 (72%) </br>
 
-![Visualization of profits and losses](Images/bubble.png)
+![Visualization of profits and losses](Images/bubble.png)</br></br>
 ![Visualization of profits and lsoses](Images/box.png)
