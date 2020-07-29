@@ -12,12 +12,12 @@ The MACD Indicator is a popular indicator in the field of technical trading. Buy
 • Buy at an anticipation of a bullish momentum: When MACD Line in the higher time frame crosses the signal line from below at an intersection < $0. </br>
 
 #### Results - 
-<i>Initial investment</i> - $18.86 AAPL Stock </br>
-<i>Trading Time</i> - June 03, 2009 - June 03, 2019 </br>
-<i>Profit</i> - $90 </br>
-<i>Position</i> - 1 share AAPL </br>
-<i>Number of trades</i> - 25 </br>
-<i>Number of non-profitable trades</i> - 7 (28%) </br>
-<i>Number of profitable trades</i> - 18 (72%) </br>
+• <i>Initial investment</i> - $18.86 AAPL Stock </br>
+• <i>Trading Time</i> - June 03, 2009 - June 03, 2019 </br>
+• <i>Profit</i> - $90 </br>
+• <i>Position</i> - 1 share AAPL </br>
+• <i>Number of trades</i> - 25 </br>
+• <i>Number of non-profitable trades</i> - 7 (28%) </br>
+• <i>Number of profitable trades</i> - 18 (72%) </br>
 
 
