@@ -24,7 +24,7 @@ The MACD Indicator is a popular indicator in the field of technical trading. Buy
 ![Visualization of profits and lsoses](Images/box.png)
 
 #### Summary - 
-• The losses, compared to the profits, were significantly less.
+• The losses, compared to the profits, were significantly less.</br>
 • The interquartile range for the losses was less as compared to the profits on the AAPL stock.
 
 
