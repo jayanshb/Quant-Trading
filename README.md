@@ -39,10 +39,17 @@ Then run the jupyter notebook MACD.ipynb
 
 Long Short term networks are very useful when dealing with sequential data. They are useful in particular when dealing with long term memory connections — they solve the problem of vanishing gradients. In this program, we train the recurrent neural network on a 60 day window and predict the price of the AAPL stock following the 60th day.
 
-#### Network Structure 
 
 #### Dataset 
 The dataset was generated using pandas.data_reader. The data consisted of AAPL close price from 2013-01-01 to 2020-06-26.
+
+#### Getting started -
+Download the dependenies required to run the jupyter notebook using 
+```
+pip install -r prediction_requirements.txt
+```
+
+Then run the jupyter notebook stock_prices_prediction.ipynb
 
 #### Results - 
 The Neural Network was able to predict stock prices with an overall <b>testing RSME error of 3.59 </b> </br></br>
@@ -51,5 +58,7 @@ The Neural Network was able to predict stock prices with an overall <b>testing R
 
 #### Summary - 
 The network performed well when predicting the trend of the stock. However, more features like attention mechanisms can make the model more accurate.
+
+
 
 
