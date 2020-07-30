@@ -35,7 +35,18 @@ Then run the jupyter notebook MACD.ipynb
 • The losses, compared to the profits, were significantly less.</br>
 • The interquartile range for the losses was less as compared to the profits on the AAPL stock.
 
+### LSTM Stock Price Predicition
 
+Long Short term networks are very useful when dealing with sequential data. They are useful in particular when dealing with long term memory connections — they solve the problem of vanishing gradients. In this program, we train the recurrent neural network on a 60 day window and predict the price of the AAPL stock following the 60th day.
 
+#### Network Structure 
+
+#### Dataset 
+The dataset was generated using pandas.data_reader. The data consisted of AAPL close price from 2013-01-01 to 2020-06-26.
+
+#### Results - 
+The Neural Network was able to predict stock prices with an overall <b>testing RSME error of 3.59 </b> </br>
+
+#### Network loss convergence
 
 
