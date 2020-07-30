@@ -46,7 +46,7 @@ The dataset was generated using pandas.data_reader. The data consisted of AAPL c
 
 #### Results - 
 The Neural Network was able to predict stock prices with an overall <b>testing RSME error of 3.59 </b> </br>
-![Network Loss convergence](convergence.png)
-![Network AAPL prediction performance](predictions.png)
+![Network Loss convergence](Images/convergence.png)
+![Network AAPL prediction performance](Images/predictions.png)
 
 
