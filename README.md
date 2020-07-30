@@ -60,7 +60,7 @@ The Neural Network was able to predict stock prices with an overall <b>testing R
 The network performed well when predicting the trend of the stock. However, more features like attention mechanisms can make the model more accurate.
 
 ## Goals Ahead 
-• Add Q-Learning algorithm 
+• Add Q-Learning algorithm </br>
 • Add RSI, Dual moving crossover stratergy
 
 
