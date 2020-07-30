@@ -45,8 +45,11 @@ Long Short term networks are very useful when dealing with sequential data. They
 The dataset was generated using pandas.data_reader. The data consisted of AAPL close price from 2013-01-01 to 2020-06-26.
 
 #### Results - 
-The Neural Network was able to predict stock prices with an overall <b>testing RSME error of 3.59 </b> </br>
+The Neural Network was able to predict stock prices with an overall <b>testing RSME error of 3.59 </b> </br></br>
 ![Network Loss convergence](Images/convergence.png)
 ![Network AAPL prediction performance](Images/predictions.png)
+
+#### Summary - 
+The network performed well when predicting the trend of the stock. However, more features like attention mechanisms can make the model more accurate.
 
 
