@@ -127,6 +127,6 @@ The network performed well when predicting the trend of the stock. However, more
 
 ## Goals Ahead 
 • Add Q-Learning algorithm </br>
-• Add RSI, Dual moving crossover stratergy
+• Finding a hybrid stratergy learned while keeping in mind the 3 stratergies mentioned above
 
 
