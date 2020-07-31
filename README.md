@@ -1,7 +1,10 @@
 # Quant-Trading
 
 ## Introduction 
-The following project is an ongoing developmental work for deep learning based algorithmic trading bot. The goal is to backtest stratergies after every trading session and tune learning parameters in order to maximize profit. The first approach to algorothmic trading is done using the implementation of technical indicators in trading
+The following project is an ongoing developmental work for deep learning based algorithmic trading bot. The goal is to backtest stratergies after every trading session and tune learning parameters in order to maximize profit. The first approach to algorothmic trading is done using the implementation of technical indicators in trading.
+
+### Development environment 
+The development environment for the following programs has been done using python 3.7.4.
 
 ### MACD Indicator Stratergy 
 The MACD Indicator is a popular indicator in the field of technical trading. Buying and Selling signals are generated based on exponential moving average crossovers — ie. the signal line and the MACD line crossover. In the implementation, <b>AAPL</b> has been backtested on this stratergy
@@ -116,6 +119,7 @@ pip install -r prediction_requirements.txt
 ```
 
 Then run the jupyter notebook stock_prices_prediction.ipynb
+It is advised to run the above code on google collab so as to use google provided GPUs for faster model training.
 
 #### Results - 
 The Neural Network was able to predict stock prices with an overall <b>testing RSME error of 3.59 </b> </br></br>
@@ -123,10 +127,10 @@ The Neural Network was able to predict stock prices with an overall <b>testing R
 ![Network AAPL prediction performance](Images/predictions.png)
 
 #### Summary - 
-The network performed well when predicting the trend of the stock. However, more features like attention mechanisms can make the model more accurate.
+The network performed well when predicting the trend of the stock. However, more features like attention mechanisms could make the model more accurate.
 
 ## Goals Ahead 
-• Add Q-Learning algorithm </br>
+• Add Q-Learning algorithm for automated trading</br>
 • Finding a hybrid stratergy learned while keeping in mind the 3 stratergies mentioned above
 
 
