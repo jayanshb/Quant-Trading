@@ -35,6 +35,38 @@ Then run the jupyter notebook MACD.ipynb
 • The losses, compared to the profits, were significantly less.</br>
 • The interquartile range for the losses was less as compared to the profits on the AAPL stock.
 
+### RSI-14 Indicator Stratergy 
+The RSI-14 Indicator is again popular indicator in the field of technical trading. Buying and Selling signals are generated based on the current and historical strength or weakness of a stock or market based on the closing prices of a recent trading period. In the implementation, <b>AAPL</b> has been backtested on this stratergy
+
+#### Algorithm - 
+
+• Sell when overbought criterion is met : When RSI indicator is above 70 > $0. </br>
+• Buy when oversold criterion is met : When RSI indicator is above 30 > $0. </br>
+
+#### Getting started -
+Download the dependenies required to run the jupyter notebook using 
+```
+pip install -r rsi_requirements.txt
+```
+
+Then run the jupyter notebook MACD.ipynb
+
+#### Results - 
+• <i>Initial investment</i> - $26.992 AAPL Stock </br>
+• <i>Trading Time</i> - June 03, 2009 - June 03, 2019 </br>
+• <i>Profit</i> - $89.1 </br>
+• <i>Position</i> - 1 share AAPL </br>
+• <i>Number of trades</i> - 30 </br>
+• <i>Number of non-profitable trades</i> - 6 (20%) </br>
+• <i>Number of profitable trades</i> - 24 (80%) </br>
+
+![Visualization of profits and losses](Images/bubble_rsi.png)</br></br>
+![Visualization of profits and lsoses](Images/box_rsi.png)
+
+#### Summary - 
+• The losses, compared to the profits, were significantly less.</br>
+• The interquartile range for the losses was less as compared to the profits on the AAPL stock.
+
 ### LSTM Stock Price Predicition
 
 Long Short term networks are very useful when dealing with sequential data. They are useful in particular when dealing with long term memory connections — they solve the problem of vanishing gradients. In this program, we train the recurrent neural network on a 60 day window and predict the price of the AAPL stock following the 60th day.
