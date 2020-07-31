@@ -49,7 +49,7 @@ Download the dependenies required to run the jupyter notebook using
 pip install -r rsi_requirements.txt
 ```
 
-Then run the jupyter notebook MACD.ipynb
+Then run the jupyter notebook RSI14.ipynb
 
 #### Results - 
 • <i>Initial investment</i> - $26.992 AAPL Stock </br>
@@ -65,6 +65,40 @@ Then run the jupyter notebook MACD.ipynb
 
 #### Summary - 
 • The losses, compared to the profits, were significantly less.</br>
+• The interquartile range for the losses was less as compared to the profits on the AAPL stock.
+
+
+### Dual Moving Average Crossover  Stratergy
+The Dual Moving Average Crossoever stratergy is again popular indicator in the field of technical trading which works in the opposite way of mean reversion. Buying and Selling signals are genarated on the basis of anticipation of a trend after following specific thresholds. In the implementation, <b>AAPL</b> has been backtested on this stratergy
+
+#### Algorithm -
+
+• Buy when SMA30 crosses SMA100 from below : anticipation of a bullish trend. </br>
+• Sell when SMA30 crosses SMA100 from the above : anticipation of a bearish trend. </br>
+
+#### Getting started -
+Download the dependenies required to run the jupyter notebook using
+```
+pip install -r crossover_requirements.txt
+```
+
+Then run the jupyter notebook dual_moving_crossover.ipynb
+
+#### Results -
+• <i>Initial investment</i> - $26.992 AAPL Stock </br>
+• <i>Trading Time</i> - June 03, 2009 - June 03, 2019 </br>
+• <i>Profit</i> - $89.44 </br>
+• <i>Position</i> - 1 share AAPL </br>
+• <i>Number of trades</i> - 12 </br>
+• <i>Number of non-profitable trades</i> - 7 (61.5%) </br>
+• <i>Number of profitable trades</i> - 5 (38.5%) </br>
+
+![Visualization of profits and losses](Images/bubble_dual.png)</br></br>
+![Visualization of profits and lsoses](Images/box_dual.png)
+
+#### Summary -
+• The losses, compared to the profits, were slightly less.</br>
+• The profitability in the overall positions relied on the significant profits made than on the volume
 • The interquartile range for the losses was less as compared to the profits on the AAPL stock.
 
 ### LSTM Stock Price Predicition
