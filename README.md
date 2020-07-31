@@ -60,7 +60,7 @@ Then run the jupyter notebook MACD.ipynb
 • <i>Number of non-profitable trades</i> - 6 (20%) </br>
 • <i>Number of profitable trades</i> - 24 (80%) </br>
 
-![Visualization of profits and losses](Images/bubble_rsi.png)</br></br>
+![Visualization of profits and losses](Images/bubble_rsi .png)</br></br>
 ![Visualization of profits and lsoses](Images/box_rsi.png)
 
 #### Summary - 
